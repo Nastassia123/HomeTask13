@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite_module11" verbose="2" parallel="true">
+
+    <test name="Test">
+        <classes>
+            <class name="webservices.training.tests.RestAssuredTests"/>
+            <class name="webservices.training.tests.RestTemplateTests"/>
+        </classes>
+    </test>
+</suite>
